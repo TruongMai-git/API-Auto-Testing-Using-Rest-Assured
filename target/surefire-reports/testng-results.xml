@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-14T16:19:55 ICT" name="Surefire suite" finished-at="2024-08-14T16:20:02 ICT" duration-ms="6407">
+    <groups>
+    </groups>
+    <test started-at="2024-08-14T16:19:55 ICT" name="Surefire test" finished-at="2024-08-14T16:20:02 ICT" duration-ms="6407">
+      <class name="TestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase@16a0ee18]" started-at="2024-08-14T16:19:55 ICT" name="setup" finished-at="2024-08-14T16:19:56 ICT" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_GetMethodParam()[pri:0, instance:TestCase@16a0ee18]" started-at="2024-08-14T16:19:56 ICT" name="TC01_GetMethodParam" finished-at="2024-08-14T16:19:59 ICT" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_GetMethodParam -->
+        <test-method signature="TC02_GetMethodMultipleParam()[pri:0, instance:TestCase@16a0ee18]" started-at="2024-08-14T16:19:59 ICT" name="TC02_GetMethodMultipleParam" finished-at="2024-08-14T16:20:00 ICT" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_GetMethodMultipleParam -->
+        <test-method signature="TC02_PostMethod()[pri:0, instance:TestCase@16a0ee18]" started-at="2024-08-14T16:20:00 ICT" name="TC02_PostMethod" finished-at="2024-08-14T16:20:02 ICT" duration-ms="1727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_PostMethod -->
+      </class> <!-- TestCase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestCase" time="7.414" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Auto\02-Project\Test\target\test-classes;C:\Auto\02-Project\Test\target\classes;C:\Users\TruongMai\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\TruongMai\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\TruongMai\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\TruongMai\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\TruongMai\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\TruongMai\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\TruongMai\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\TruongMai\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\TruongMai\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\TruongMai\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\TruongMai\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\TruongMai\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\TruongMai\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\TruongMai\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\TruongMai\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\TruongMai\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\TruongMai\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\TruongMai\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\TruongMai\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\TruongMai\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\TruongMai\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\TruongMai\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\TruongMai\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\TruongMai\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\TruongMai\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\TruongMai\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\TruongMai\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\TruongMai\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\TruongMai\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\TruongMai\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\TruongMai\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\TruongMai\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
+    <property name="sun.java.command" value="C:\Users\TruongMai\AppData\Local\Temp\surefire13536300991877531790\surefirebooter-20240814161954193_3.jar C:\Users\TruongMai\AppData\Local\Temp\surefire13536300991877531790 2024-08-14T16-19-53_238-jvmRun1 surefire-20240814161954193_1tmp surefire_0-20240814161954193_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Auto\02-Project\Test\target\test-classes;C:\Auto\02-Project\Test\target\classes;C:\Users\TruongMai\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\TruongMai\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\TruongMai\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\TruongMai\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\TruongMai\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\TruongMai\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\TruongMai\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\TruongMai\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\TruongMai\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\TruongMai\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\TruongMai\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\TruongMai\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\TruongMai\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\TruongMai\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\TruongMai\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\TruongMai\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\TruongMai\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\TruongMai\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\TruongMai\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\TruongMai\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\TruongMai\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\TruongMai\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\TruongMai\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\TruongMai\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\TruongMai\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\TruongMai\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\TruongMai\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\TruongMai\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\TruongMai\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\TruongMai\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\TruongMai\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\TruongMai\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\TruongMai\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\TruongMai"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Auto\02-Project\Test"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\TruongMai\AppData\Local\Temp\surefire13536300991877531790\surefirebooter-20240814161954193_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
+    <property name="user.name" value="TruongMai"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\TruongMai\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\TRUONG~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="C:\Auto\02-Project\Test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;%downloads%bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\TruongMai\AppData\Local\Programs\Python\Python310\;C:\Users\TruongMai\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="TC01_GetMethodParam" classname="TestCase" time="3.034">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api-gateway-qa2.dragoncapital.com.vn/adapter/api/Province/GetForDropdown
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Json Body: 
+{
+    "result": [
+        {
+            "id": 64,
+            "label": "Thành phố Hà Nội",
+            "value": "000001",
+            "parentId": null
+        },
+        {
+            "id": 65,
+            "label": "Tỉnh Hà Giang",
+            "value": "000002",
+            "parentId": null
+        },
+        {
+            "id": 66,
+            "label": "Tỉnh Cao Bằng",
+            "value": "000003",
+            "parentId": null
+        },
+        {
+            "id": 67,
+            "label": "Tỉnh Bắc Kạn",
+            "value": "000004",
+            "parentId": null
+        },
+        {
+            "id": 68,
+            "label": "Tỉnh Tuyên Quang",
+            "value": "000005",
+            "parentId": null
+        },
+        {
+            "id": 69,
+            "label": "Tỉnh Lào Cai",
+            "value": "000006",
+            "parentId": null
+        },
+        {
+            "id": 70,
+            "label": "Tỉnh Điện Biên",
+            "value": "000007",
+            "parentId": null
+        },
+        {
+            "id": 71,
+            "label": "Tỉnh Lai Châu",
+            "value": "000008",
+            "parentId": null
+        },
+        {
+            "id": 72,
+            "label": "Tỉnh Sơn La",
+            "value": "000009",
+            "parentId": null
+        },
+        {
+            "id": 73,
+            "label": "Tỉnh Yên Bái",
+            "value": "000010",
+            "parentId": null
+        },
+        {
+            "id": 74,
+            "label": "Tỉnh Hoà Bình",
+            "value": "000011",
+            "parentId": null
+        },
+        {
+            "id": 75,
+            "label": "Tỉnh Thái Nguyên",
+            "value": "000012",
+            "parentId": null
+        },
+        {
+            "id": 76,
+            "label": "Tỉnh Lạng Sơn",
+            "value": "000013",
+            "parentId": null
+        },
+        {
+            "id": 77,
+            "label": "Tỉnh Quảng Ninh",
+            "value": "000014",
+            "parentId": null
+        },
+        {
+            "id": 78,
+            "label": "Tỉnh Bắc Giang",
+            "value": "000015",
+            "parentId": null
+        },
+        {
+            "id": 79,
+            "label": "Tỉnh Phú Thọ",
+            "value": "000016",
+            "parentId": null
+        },
+        {
+            "id": 80,
+            "label": "Tỉnh Vĩnh Phúc",
+            "value": "000017",
+            "parentId": null
+        },
+        {
+            "id": 81,
+            "label": "Tỉnh Bắc Ninh",
+            "value": "000018",
+            "parentId": null
+        },
+        {
+            "id": 82,
+            "label": "Tỉnh Hải Dương",
+            "value": "000019",
+            "parentId": null
+        },
+        {
+            "id": 83,
+            "label": "Thành phố Hải Phòng",
+            "value": "000020",
+            "parentId": null
+        },
+        {
+            "id": 84,
+            "label": "Tỉnh Hưng Yên",
+            "value": "000021",
+            "parentId": null
+        },
+        {
+            "id": 85,
+            "label": "Tỉnh Thái Bình",
+            "value": "000022",
+            "parentId": null
+        },
+        {
+            "id": 86,
+            "label": "Tỉnh Hà Nam",
+            "value": "000023",
+            "parentId": null
+        },
+        {
+            "id": 87,
+            "label": "Tỉnh Nam Định",
+            "value": "000024",
+            "parentId": null
+        },
+        {
+            "id": 88,
+            "label": "Tỉnh Ninh Bình",
+            "value": "000025",
+            "parentId": null
+        },
+        {
+            "id": 89,
+            "label": "Tỉnh Thanh Hóa",
+            "value": "000026",
+            "parentId": null
+        },
+        {
+            "id": 90,
+            "label": "Tỉnh Nghệ An",
+            "value": "000027",
+            "parentId": null
+        },
+        {
+            "id": 91,
+            "label": "Tỉnh Hà Tĩnh",
+            "value": "000028",
+            "parentId": null
+        },
+        {
+            "id": 92,
+            "label": "Tỉnh Quảng Bình",
+            "value": "000029",
+            "parentId": null
+        },
+        {
+            "id": 93,
+            "label": "Tỉnh Quảng Trị",
+            "value": "000030",
+            "parentId": null
+        },
+        {
+            "id": 94,
+            "label": "Tỉnh Thừa Thiên Huế",
+            "value": "000031",
+            "parentId": null
+        },
+        {
+            "id": 95,
+            "label": "Thành phố Đà Nẵng",
+            "value": "000032",
+            "parentId": null
+        },
+        {
+            "id": 96,
+            "label": "Tỉnh Quảng Nam",
+            "value": "000033",
+            "parentId": null
+        },
+        {
+            "id": 97,
+            "label": "Tỉnh Quảng Ngãi",
+            "value": "000034",
+            "parentId": null
+        },
+        {
+            "id": 98,
+            "label": "Tỉnh Bình Định",
+            "value": "000035",
+            "parentId": null
+        },
+        {
+            "id": 99,
+            "label": "Tỉnh Phú Yên",
+            "value": "000036",
+            "parentId": null
+        },
+        {
+            "id": 100,
+            "label": "Tỉnh Khánh Hòa",
+            "value": "000037",
+            "parentId": null
+        },
+        {
+            "id": 101,
+            "label": "Tỉnh Ninh Thuận",
+            "value": "000038",
+            "parentId": null
+        },
+        {
+            "id": 102,
+            "label": "Tỉnh Bình Thuận",
+            "value": "000039",
+            "parentId": null
+        },
+        {
+            "id": 103,
+            "label": "Tỉnh Kon Tum",
+            "value": "000040",
+            "parentId": null
+        },
+        {
+            "id": 104,
+            "label": "Tỉnh Gia Lai",
+            "value": "000041",
+            "parentId": null
+        },
+        {
+            "id": 105,
+            "label": "Tỉnh Đắk Lắk",
+            "value": "000042",
+            "parentId": null
+        },
+        {
+            "id": 106,
+            "label": "Tỉnh Đắk Nông",
+            "value": "000043",
+            "parentId": null
+        },
+        {
+            "id": 107,
+            "label": "Tỉnh Lâm Đồng",
+            "value": "000044",
+            "parentId": null
+        },
+        {
+            "id": 108,
+            "label": "Tỉnh Bình Phước",
+            "value": "000045",
+            "parentId": null
+        },
+        {
+            "id": 109,
+            "label": "Tỉnh Tây Ninh",
+            "value": "000046",
+            "parentId": null
+        },
+        {
+            "id": 110,
+            "label": "Tỉnh Bình Dương",
+            "value": "000047",
+            "parentId": null
+        },
+        {
+            "id": 111,
+            "label": "Tỉnh Đồng Nai",
+            "value": "000048",
+            "parentId": null
+        },
+        {
+            "id": 112,
+            "label": "Tỉnh Bà Rịa - Vũng Tàu",
+            "value": "000049",
+            "parentId": null
+        },
+        {
+            "id": 113,
+            "label": "Thành phố Hồ Chí Minh",
+            "value": "000050",
+            "parentId": null
+        },
+        {
+            "id": 114,
+            "label": "Tỉnh Long An",
+            "value": "000051",
+            "parentId": null
+        },
+        {
+            "id": 115,
+            "label": "Tỉnh Tiền Giang",
+            "value": "000052",
+            "parentId": null
+        },
+        {
+            "id": 116,
+            "label": "Tỉnh Bến Tre",
+            "value": "000053",
+            "parentId": null
+        },
+        {
+            "id": 117,
+            "label": "Tỉnh Trà Vinh",
+            "value": "000054",
+            "parentId": null
+        },
+        {
+            "id": 118,
+            "label": "Tỉnh Vĩnh Long",
+            "value": "000055",
+            "parentId": null
+        },
+        {
+            "id": 119,
+            "label": "Tỉnh Đồng Tháp",
+            "value": "000056",
+            "parentId": null
+        },
+        {
+            "id": 120,
+            "label": "Tỉnh An Giang",
+            "value": "000057",
+            "parentId": null
+        },
+        {
+            "id": 121,
+            "label": "Tỉnh Kiên Giang",
+            "value": "000058",
+            "parentId": null
+        },
+        {
+            "id": 122,
+            "label": "Thành phố Cần Thơ",
+            "value": "000059",
+            "parentId": null
+        },
+        {
+            "id": 123,
+            "label": "Tỉnh Hậu Giang",
+            "value": "000060",
+            "parentId": null
+        },
+        {
+            "id": 124,
+            "label": "Tỉnh Sóc Trăng",
+            "value": "000061",
+            "parentId": null
+        },
+        {
+            "id": 125,
+            "label": "Tỉnh Bạc Liêu",
+            "value": "000062",
+            "parentId": null
+        },
+        {
+            "id": 126,
+            "label": "Tỉnh Cà Mau",
+            "value": "000063",
+            "parentId": null
+        },
+        {
+            "id": 127,
+            "label": "ABHU KSO",
+            "value": "P000064",
+            "parentId": null
+        },
+        {
+            "id": 128,
+            "label": "Tỉnh Hải Nam 17",
+            "value": "P000065",
+            "parentId": null
+        },
+        {
+            "id": 129,
+            "label": "Thanh Pho ABC Ho Chi Minh",
+            "value": "P000066",
+            "parentId": null
+        },
+        {
+            "id": 130,
+            "label": "Binh ABC Thuan",
+            "value": "P000067",
+            "parentId": null
+        },
+        {
+            "id": 133,
+            "label": "Hai Test 01",
+            "value": "P000068",
+            "parentId": null
+        },
+        {
+            "id": 134,
+            "label": "Bình ABC Thuận",
+            "value": "P000069",
+            "parentId": null
+        },
+        {
+            "id": 135,
+            "label": "tỉnh 030401",
+            "value": "P000070",
+            "parentId": null
+        }
+    ],
+    "success": true,
+    "__abp": true,
+    "error": null,
+    "targetUrl": null,
+    "unAuthorizedRequest": false
+}
+Name ==>  65
+id ==>  64
+id ==>  65
+id ==>  66
+id ==>  67
+id ==>  68
+id ==>  69
+id ==>  70
+id ==>  71
+]]></system-out>
+  </testcase>
+  <testcase name="TC02_GetMethodMultipleParam" classname="TestCase" time="0.854">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api-gateway-qa2.dragoncapital.com.vn/adapter/api/Province/GetAddressCodeList?wardName=Th%E1%BB%8B%20tr%E1%BA%A5n%20%C4%90%C3%A0%20B%E1%BA%AFc&districtName=Huy%E1%BB%87n%20%C4%90%C3%A0%20B%E1%BA%AFc&provinceName=T%E1%BB%89nh%20Ho%C3%A0%20B%C3%ACnh
+Proxy:			<none>
+Request params:	<none>
+Query params:	wardName=Thị trấn Đà Bắc
+				districtName=Huyện Đà Bắc
+				provinceName=Tỉnh Hoà Bình
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Json Body: 
+{
+    "result": {
+        "province": "000011",
+        "district": "000106",
+        "ward": "001717"
+    },
+    "success": true,
+    "__abp": true,
+    "error": null,
+    "targetUrl": null,
+    "unAuthorizedRequest": false
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TC02_PostMethod" classname="TestCase" time="1.742">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://google.serper.dev/search
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-API-KEY=86216d6a67262ce74141304bd67da1ea4adbacd9
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "q": "Where are you now?"
+}
+Json Body: 
+{
+    "peopleAlsoAsk": [
+        {
+            "snippet": "\"Where Are You Now\" is a song by Belgian DJ Lost Frequencies and English singer Calum Scott. It was released on 30 July 2021 via Epic.",
+            "question": "Who sings the song \"Where are you now\"?",
+            "link": "https://en.wikipedia.org/wiki/Where_Are_You_Now_(Lost_Frequencies_song)",
+            "title": "Where Are You Now (Lost Frequencies song) - Wikipedia"
+        },
+        {
+            "snippet": "\"Faded\" is a song by British-Norwegian record producer and DJ Alan Walker with vocals provided by Norwegian singer Iselin Solheim.",
+            "question": "Who is the singer in faded Alan Walker?",
+            "link": "https://en.wikipedia.org/wiki/Faded_(Alan_Walker_song)",
+            "title": "Faded (Alan Walker song) - Wikipedia"
+        },
+        {
+            "snippet": "Lost Frequencies ft Calum Scott - Where Are You Now (Official Video)\nAug 18, 2021",
+            "question": "Who plays Where Are You Now?",
+            "link": "https://www.facebook.com/calumscottmusic1/videos/lost-frequencies-ft-calum-scott-where-are-you-now-official-video/369860371211693/",
+            "title": "Lost Frequencies ft Calum Scott - Where Are You Now (Official Video)"
+        }
+    ],
+    "relatedSearches": [
+        {"query": "Crazy"},
+        {"query": "Where are you now Alan Walker"},
+        {"query": "Where are you Now song female singer"},
+        {"query": "Where are you now meaning"},
+        {"query": "Where are you now lyrics"},
+        {"query": "Where are you now in Hindi"},
+        {"query": "where are you now (original)"},
+        {"query": "Where Are You Now song download"},
+        {"query": "Where are you now reply"}
+    ],
+    "searchParameters": {
+        "q": "Where are you now?",
+        "engine": "google",
+        "type": "search"
+    },
+    "organic": [
+        {
+            "snippet": "Lost Frequencies & Calum Scott - Where Are You Now Stream & Download : https ...",
+            "date": "Oct 5, 2021",
+            "imageUrl": "https://i.ytimg.com/vi/k7Q2kt_MZRk/default.jpg?sqp=-oaymwEECHgQQw&rs=AMzJL3naKMZtwc0dBo1SpvFWulBElZ90gA",
+            "link": "https://www.youtube.com/watch?v=k7Q2kt_MZRk",
+            "attributes": {
+                "Duration": "2:29",
+                "Posted": "Oct 5, 2021"
+            },
+            "position": 1,
+            "title": "Lost Frequencies & Calum Scott - Where Are You Now (Lyrics)"
+        },
+        {
+            "snippet": "Lost Frequencies - Where Are You Now (Lyrics) ft. Calum Scott Follow my Playlist on Spotify ...",
+            "date": "May 28, 2023",
+            "imageUrl": "https://i.ytimg.com/vi/1HayMUqBdQY/default.jpg?sqp=-oaymwEECHgQQw&rs=AMzJL3k0pOZSUXcpR01niO4kzex-HeqlOQ",
+            "link": "https://www.youtube.com/watch?v=1HayMUqBdQY",
+            "attributes": {
+                "Duration": "2:29",
+                "Posted": "May 28, 2023"
+            },
+            "position": 2,
+            "title": "Lost Frequencies & Calum Scott - Where Are You Now (Lyrics)"
+        },
+        {
+            "snippet": "We are being overwhelmed, in a good way, by the success of \u201cWhere Are Ü Now\u201d with Justin ...",
+            "date": "Jun 29, 2015",
+            "imageUrl": "https://i.ytimg.com/vi/nntGTK2Fhb0/default.jpg?sqp=-oaymwEECHgQQw&rs=AMzJL3kisDjHHxXlRmgvR-m0wVxkyFxBDA",
+            "link": "https://www.youtube.com/watch?v=nntGTK2Fhb0",
+            "attributes": {
+                "Duration": "4:12",
+                "Posted": "Jun 29, 2015"
+            },
+            "position": 3,
+            "title": "\"Where Are Ü Now\" with Justin Bieber (Official Video) - YouTube"
+        },
+        {
+            "snippet": "Alan Walker - Where are you now (Faded) (Lyrics) Stream Faded Alan Walker : https://lnk.to/AW ...",
+            "date": "Jan 6, 2021",
+            "imageUrl": "https://i.ytimg.com/vi/kId1v7JDJtY/default.jpg?sqp=-oaymwEECHgQQw&rs=AMzJL3lCQevBp6tIwLd82cesvja_QLTwdw",
+            "link": "https://www.youtube.com/watch?v=kId1v7JDJtY",
+            "attributes": {
+                "Duration": "3:28",
+                "Posted": "Jan 6, 2021"
+            },
+            "position": 4,
+            "title": "Alan Walker - Where are you now (Faded) (Lyrics) - YouTube"
+        },
+        {
+            "snippet": "\"Where Are You Now\" is a song by Belgian DJ Lost Frequencies and English singer Calum Scott. It was released on 30 July 2021 via Epic. The song was written ...",
+            "link": "https://en.wikipedia.org/wiki/Where_Are_You_Now_(Lost_Frequencies_song)",
+            "position": 5,
+            "title": "Where Are You Now (Lost Frequencies song) - Wikipedia"
+        },
+        {
+            "snippet": "Official music video for #WhereAreYouNow with Lost Frequencies is OUT NOW! Loads of fun ...",
+            "date": "Aug 18, 2021",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTte5BPdC-rg1vS7i4e1xtv66KLKtR64oWQ6XlLbvklhWLlr4jNTa5r264&s",
+            "link": "https://www.facebook.com/calumscottmusic1/videos/lost-frequencies-ft-calum-scott-where-are-you-now-official-video/369860371211693/",
+            "attributes": {
+                "Duration": "0:31",
+                "Posted": "Aug 18, 2021"
+            },
+            "position": 6,
+            "title": "Lost Frequencies ft Calum Scott - Where Are You Now (Official Video)"
+        },
+        {
+            "snippet": "This browser is not supported · Calum Scott, Lost Frequencies - Where Are You Now (Acoustic ...",
+            "date": "Mar 4, 2022",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ9J5NQ_4b7EtrdMpLqPdj7Y_7MfJ0RKlJHkg8ONDm2TSb8glqEBnRa7M&s",
+            "link": "https://www.facebook.com/calumscottmusic1/videos/calum-scott-lost-frequencies-where-are-you-now-acoustic/322485479855355/",
+            "attributes": {
+                "Duration": "0:39",
+                "Posted": "Mar 4, 2022"
+            },
+            "position": 7,
+            "title": "Calum Scott, Lost Frequencies - Where Are You Now (Acoustic)"
+        },
+        {
+            "snippet": "Provided to YouTube by Epic Amsterdam Where Are You Now · Lost Frequencies · Calum Scott ...",
+            "date": "Jul 29, 2021",
+            "imageUrl": "https://i.ytimg.com/vi/-23UKjwu_10/default.jpg?sqp=-oaymwEECHgQQw&rs=AMzJL3nW24wuK51tTuTsYU6ql1tAXsfXRw",
+            "link": "https://www.youtube.com/watch?v=-23UKjwu_10",
+            "attributes": {
+                "Duration": "2:29",
+                "Posted": "Jul 29, 2021"
+            },
+            "position": 8,
+            "title": "Where Are You Now - YouTube"
+        },
+        {
+            "snippet": "\"Where Are Ü Now\" is a song produced by American EDM artists Skrillex and Diplo under their collaborative effort Jack Ü, with vocals from Canadian singer ...",
+            "link": "https://en.wikipedia.org/wiki/Where_Are_%C3%9C_Now",
+            "position": 9,
+            "title": "Where Are Ü Now - Wikipedia"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+</testsuite>
